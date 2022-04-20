@@ -1,0 +1,12 @@
+jmeter_dir: /Applications/apache-jmeter-5.4.3
+jmx_path: /Users/yuelinwang/Downloads/testplan/plan.jmx
+#result_path: /Users/yuelinwang/Downloads/testplan/result/result.txt
+result_dir: /Users/yuelinwang/Downloads/testplan
+
+thread_group:
+  - name: 100并行
+    thread_num: 100
+    repeat_num: 1
+  - name: 1000并行
+    thread_num: 1000
+    repeat_num: 1
